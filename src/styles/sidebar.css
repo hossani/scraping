@@ -1,0 +1,27 @@
+@charset "UTF-8";
+/*component sidebar*/
+.background-aside, .sidebar-class {
+  background-color: #212529;
+}
+
+.sidebar-class {
+  min-height: calc(100vh - 64px);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.color-text-aside {
+  color: white;
+}
+
+.container-sidebar-dash {
+  display: flex;
+  flex-direction: row; /* Pour que la sidebar et le formulaire soient côte à côte */
+}
+
+.container-sidebar-dash {
+  display: flex;
+  flex-direction: row; /* Pour que la sidebar et le formulaire soient côte à côte */
+}/*# sourceMappingURL=sidebar.css.map */

@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/************************ Page Home *******************************/
+.gradient {
+  background: linear-gradient(90deg, #024401 0%, #C7E5C8 100%);
+  min-height: calc(100vh - 64px);
+  display: flex;
+  align-items: center;
+}
+
+/**************************** Page Register ****************************/
+
+.titre-form{
+  font-weight: bold;
+  font-size: 26px;
+}
+.titre-form-div{
+margin-bottom: 30px;
+}
+.container-login{
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}
+form{
+  width: 100%;
+}
+.container-form-login{
+  display: flex;
+  align-items: center;
+  padding-top: 35px;
+  width: 50%;
+}
+.div-logo-form{
+  display: flex;
+  justify-content: center;
+}
+img{
+  object-fit: cover;
+}
+
+@media (max-width:750px) {
+  .container-login {
+    flex-direction: column;
+  }
+  .container-form-login{
+    padding-top: 0px;
+    width: 100%;
+  }
+}
+
